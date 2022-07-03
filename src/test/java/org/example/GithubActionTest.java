@@ -25,6 +25,6 @@ class GithubActionTest {
     @Test
     void developBranchFail() {
         String test = "테스트";
-        assertThat(test).isEqualTo("테스트");
+        assertThat(test).isEqualTo("");
     }
 }
