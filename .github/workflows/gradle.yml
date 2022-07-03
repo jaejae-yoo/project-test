@@ -32,3 +32,8 @@ jobs:
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
         arguments: build
+    - name: Close Issue
+      uses: peter-evans/close-issue@v2
+      with:
+        issue-number: 1
+        comment: Auto-closing issue
