@@ -20,4 +20,11 @@ class GithubActionTest {
         String test = "테스트";
         assertThat(test).isEqualTo("테스트");
     }
+
+    @DisplayName("develop branch: 실패 테스트")
+    @Test
+    void developBranchFail() {
+        String test = "테스트";
+        assertThat(test).isEqualTo("테스트");
+    }
 }
